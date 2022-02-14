@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.49.7"
+  },
+  "name": "learning-transition-animation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-delecluse/Learning-transition-animation.git"
+  },
+  "author": "Delecluse-Christopher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-delecluse/Learning-transition-animation/issues"
+  },
+  "homepage": "https://github.com/chris-delecluse/Learning-transition-animation#readme",
+  "description": ""
+}
