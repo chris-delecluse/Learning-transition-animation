@@ -1,0 +1,49 @@
+@import './mixins/_mixins';
+
+body {
+    width: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height: 60vh;
+    background-color: #000000;
+
+    .exo1Content {
+        height: 100%;
+        @include setFlexAndPos (flex, space-around, center);
+ 
+        .button {
+            width: 15%;
+            height: 13%;
+            border: 3px solid #FFF;
+            @include setFlexAndPos (flex, center, center);
+            transition: 1.4s ease;
+
+            &:hover {
+                background-color: #FFF;
+                transition: 1.4s ease;
+            }
+
+            p {
+                color: #FFF;
+            }
+
+            &:hover p {
+                color: #000000;
+            }
+        }
+
+        .active1 {
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+
+        .active2 {
+            &:hover {
+                transform: translate(100px, 0);
+            }
+        }
+    }
+}

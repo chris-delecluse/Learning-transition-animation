@@ -1,0 +1,42 @@
+body {
+  width: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 60vh;
+  background-color: #000000;
+}
+.container .exo1Content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .exo1Content .button {
+  width: 15%;
+  height: 13%;
+  border: 3px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.4s ease;
+}
+.container .exo1Content .button:hover {
+  background-color: #FFF;
+  transition: 1.4s ease;
+}
+.container .exo1Content .button p {
+  color: #FFF;
+}
+.container .exo1Content .button:hover p {
+  color: #000000;
+}
+.container .exo1Content .active1:hover {
+  transform: scale(1.5);
+}
+.container .exo1Content .active2:hover {
+  transform: translate(100px, 0);
+}
+
+/*# sourceMappingURL=style.css.map */
